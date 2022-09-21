@@ -203,6 +203,10 @@ footer {
     background-image: linear-gradient(-20deg , #d496e9, #a635a4)
   }
 
+  .fourth .hero-description-bk {
+    background-image: linear-gradient(-20deg , #F0290E, #EDD581)
+  }
+
   .third .hero-description-bk {
     background-image: linear-gradient(-20deg , #eaff00, #ff6600)
   }
