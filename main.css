@@ -22,7 +22,6 @@ body {
     padding: 0;
     position: relative;
     padding: 25px 10px 25px 10px;
-    background-color: white;
     justify-content: space-between;
     display: flex;
 
@@ -240,6 +239,7 @@ footer {
     right: 30px;
     bottom: 10%;
     padding: 10px 20px;
+    transition-duration: 0.4s;
   }
   
   .hero-btn a {
@@ -253,6 +253,12 @@ footer {
     left: 30px;
     bottom: 10%;
   }
+  
+.hero-btn:hover {
+    background-color: rgb(118, 216, 118);
+    color: white;
+  }
+
   /* END CARD DESIGN */
   
   body {
