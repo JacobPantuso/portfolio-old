@@ -333,6 +333,10 @@ footer {
   padding-right: 2px;
 }
 
+.meMobile {
+  display: none;
+}
+
 #active:checked ~ .menu-btn{
   color: #fff;
 }
