@@ -423,14 +423,23 @@ input[type="checkbox"]{
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:650px) {
+  .middle, .left, .right {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
   .nav {
       display: none;
   }
   .wrapper {
       display: inline;
       text-align: center;
+      z-index: 1;
   }
+  .container {
+    flex-direction: column;
+  }
+
   .mobile-nav {
     display: inline;
   }
@@ -438,9 +447,19 @@ input[type="checkbox"]{
   #wrapper {
       text-align: center;
       gap: 0px;
+      flex-direction: column;
   }
   .me {
       display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .meMobile {
+    display: inline;
+    justify-content: center;
+    width: 200px;
+    border-radius: 50%;
   }
   .introduction-content p {
       width: auto;
