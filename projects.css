@@ -23,6 +23,10 @@ body {
     font-weight: 300;
 }
 
+.back {
+    z-index: 3;
+}
+
 .description {
     justify-content: center;
     position: absolute;
