@@ -285,11 +285,22 @@ body {
 .hover-text:hover #fade { opacity: 1;}
 .hover-text:hover #delay { opacity: 1; }
 
+.hover-text-icon:hover #fade { opacity: 1;}
+.hover-text-icon:hover #delay { opacity: 1; }
+
 
 .hover-text {
   position: relative;
   display: inline-block;
   margin: 40px;
+  font-family: Avenir;
+  text-align: center;
+}
+
+.hover-text-icon {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
   font-family: Avenir;
   text-align: center;
 }
