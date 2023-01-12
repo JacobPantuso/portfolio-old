@@ -379,9 +379,19 @@ footer {
     background-image: linear-gradient(-20deg , #F0290E, #EDD581)
   }
 
+  .fifth .hero-description-bk {
+    background-image: linear-gradient(-20deg , #1E7BAF, #1EAF4B)
+  }
+
+  .sixth .hero-description-bk {
+    background-image: linear-gradient(-20deg , #FD93FF, #C323FF, #5E6CFF, #00A3FF )
+  }
+
+
   .third .hero-description-bk {
     background-image: linear-gradient(-20deg , #eaff00, #ff6600)
   }
+
   
   .hero-logo {
     height: 80px;
