@@ -391,6 +391,10 @@ footer {
     width: 108%;
     transform: skew(19deg, -9deg);
   }
+
+  .weather-react .hero-description-bk {
+    background-image: linear-gradient(0deg , #fe9d6d, #fccd4b);
+  }
   
   .second .hero-description-bk {
     background-image: linear-gradient(-20deg , #d496e9, #a635a4)
